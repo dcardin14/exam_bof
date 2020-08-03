@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 import socket
 
-ServiceManagerIP = "10.185.10.55"
+ServiceManagerIP = "10.0.2.7"
 ServiceManagerPort = 42424
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
