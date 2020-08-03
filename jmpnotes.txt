@@ -1,0 +1,6 @@
+IF WE GO WITH THE EXE ITSELF, it's at 0x08040000, which converts to little-endian as follows:
+\x00\x00\x04\x08
+and there are two jmps:
+080414C3 and 080416bf
+which convert (respectively) as follows:
+\xC3\c14\x04\x08 and \xbf\x16\x04\x08
